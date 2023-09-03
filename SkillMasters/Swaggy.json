@@ -1,0 +1,41 @@
+{
+    "level_requirement": 25,
+    "tasks": [
+        {
+            "task": "Stand at the Grand Exchange for 10 minutes",
+            "points": 1200,
+            "index": 1
+        },
+        {
+            "task": "Roleplay as a bot in Lumbridge for 10 minutes",
+            "points": 1200,
+            "index": 2
+        },
+        {
+            "task": "Walk from Varrock to Ardougne",
+            "points": 2400,
+            "index": 3
+        },
+        {
+            "task": "Fish for junk in Catherby for 30 minutes",
+            "points": 3000,
+            "index": 4
+        },
+        {
+            "task": "Complete a clue scroll without using a guide",
+            "points": 6000,
+            "index": 5
+        },
+        {
+            "task": "Stand in the Falador Party Room and celebrate for 5 minutes",
+            "points": 480,
+            "index": 6
+        },
+        {
+            "task": "Get to varrock from lumbridge by only following people",
+            "points": 1200,
+            "index": 7
+
+        }
+    ]
+}

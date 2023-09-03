@@ -1,0 +1,305 @@
+{
+    "level_requirement": 10,
+    "tasks": [
+        {
+            "task": "Complete a Slayer task from any master",
+            "points": 5000,
+            "index": 1
+        },
+        {
+            "task": "Kill 200 of an NPC dropping a champion scroll",
+            "points": 5000,
+            "index": 2
+        },
+        {
+            "task": "50 of the wilderness demi-bosses",
+            "points": 30000,
+            "index": 3
+        },
+        {
+            "task": "50 of the wildy bosses",
+            "points": 50000,
+            "index": 4
+        },
+        {
+            "task": "50 of Mole or Sarachnis",
+            "points": 20000,
+            "index": 5
+        },
+        {
+            "task": "Acquire a new piece of dark/light mystic, or open 5 brimstone chests",
+            "points": 15000,
+            "index": 6
+        },
+        {
+            "task": "100 revenants",
+            "points": 20000,
+            "index": 7
+        },
+        {
+            "task": "5 CG or 10 gauntlet",
+            "points": 14500,
+            "index": 8
+        },
+        {
+            "task": "Solo raid (any level)",
+            "points": 10000,
+            "index": 9
+        },
+        {
+            "task": "A combat achievement. If you're a GM then fricc you",
+            "points": 20000,
+            "index": 10
+        },
+        {
+            "task": "50kc of something that drops a dragon pick",
+            "points": 25000,
+            "index": 11
+        },
+        {
+            "task": "A DK ring",
+            "points": 50000,
+            "index": 12
+        },
+        {
+            "task": "Black Mask",
+            "points": 20000,
+            "index": 13
+        },
+        {
+            "task": "50 of DT2 bosses, or a DT2 requirement, or DT2. ",
+            "points": 40000,
+            "index": 14
+        },
+        {
+            "task": "5 raids (not entry)",
+            "points": 50000,
+            "index": 15
+        },
+        {
+            "task": "Inferno attempt (must actually try)",
+            "points": 12000,
+            "index": 16
+        },
+        {
+            "task": "Barrows Item",
+            "points": 10000,
+            "index": 17
+        },
+        {
+            "task": "25 GWD kc (any)",
+            "points": 30000,
+            "index": 18
+        },
+        {
+            "task": "10 GWD kc at your lowest kc boss",
+            "points": 20000,
+            "index": 19
+        },
+        {
+            "task": "25 vork kc",
+            "points": 25000,
+            "index": 20
+        },
+        {
+            "task": "50 zulrah kc",
+            "points": 30000,
+            "index": 21
+        },
+        {
+            "task": "Nightmare kc if first, or 5 nightmare/PN kc",
+            "points": 10000,
+            "index": 22
+        },
+        {
+            "task": "Attempt to beat highest invocation completed solo TOA",
+            "points": 20000,
+            "index": 23
+        },
+        {
+            "task": "Kill 5% of pet rate at a boss you don't have a pet for",
+            "points": 20000,
+            "index": 24
+        },
+        {
+            "task": "20 nex kc, or unlock nex",
+            "points": 30000,
+            "index": 25
+        },
+        {
+            "task": "Complete a wildy slayer task",
+            "points": 30000,
+            "index": 26
+        },
+        {
+            "task": "Make 1m gp at a boss",
+            "points": 12000,
+            "index": 27
+        },
+        {
+            "task": "100kc at a slayer boss",
+            "points": 80000,
+            "index": 28
+        },
+        {
+            "task": "kill any boss with green screen plugin turned on (preferably stream in discord)",
+            "points": 20000,
+            "index": 29
+        },
+        {
+            "task": "10kc at every GWD boss",
+            "points": 60000,
+            "index": 30
+        },
+        {
+            "task": "Elder chaos druids or ancient spiritual mages for robe piece",
+            "points": 30000,
+            "index": 31
+        },
+        {
+            "task": "20 Whisperer",
+            "points": 22500,
+            "index": 32
+        },
+        {
+            "task": "20 Vardorvis",
+            "points": 22500,
+            "index": 33
+        },
+        {
+            "task": "20 Duke",
+            "points": 22500,
+            "index": 34
+        },
+        {
+            "task": "20 Leviathan",
+            "points": 22500,
+            "index": 35
+        },
+        {
+            "task": "Learn a new method/trick/skip at a boss",
+            "points": 30000,
+            "index": 36
+        },
+        {
+            "task": "Re-fight Seren, or complete a SotE requirement if you're not there",
+            "points": 7000,
+            "index": 37
+        },
+        {
+            "task": "Slayer until you get a hard clue scroll and complete it",
+            "points": 30000,
+            "index": 38
+        },
+        {
+            "task": "Bossing until elite clue scroll and complete it",
+            "points": 50000,
+            "index": 39
+        },
+        {
+            "task": "A new boss collection log slot",
+            "points": 70000,
+            "index": 40
+        },
+        {
+            "task": "An awakeners orb",
+            "points": 60000,
+            "index": 41
+        },
+        {
+            "task": "Do the lowest tier CA task you haven't completed yet",
+            "points": 40000,
+            "index": 42
+        },
+        {
+            "task": "Cache from Muspah or TOA",
+            "points": 70000,
+            "index": 43
+        },
+        {
+            "task": "Get a DT2 boss KC in <5m gear",
+            "points": 25000,
+            "index": 44
+        },
+        {
+            "task": "Get any drop that is 1/128 in memory of Idyl",
+            "points": 40000,
+            "index": 45
+        },
+        {
+            "task": "Kill any boss once using no gear listed on the wiki gear list",
+            "points": 25000,
+            "index": 46
+        },
+        {
+            "task": "Slayer until RDT roll",
+            "points": 40000,
+            "index": 47
+        },
+        {
+            "task": "Any item on the Slayer or Misc collection log tabs",
+            "points": 60000,
+            "index": 48
+        },
+        {
+            "task": "Get 5 white light chests in a row",
+            "points": 75000,
+            "index": 49
+        },
+        {
+            "task": "Blue scaly thing from Vork",
+            "points": 40000,
+            "index": 50
+        },
+        {
+            "task": "Zulrah until a prime number of scales",
+            "points": 60000,
+            "index": 51
+        },
+        {
+            "task": "Wildy slayer until a slayer enchantment, ring (i) or msb (i) scroll",
+            "points": 35000,
+            "index": 52
+        },
+        {
+            "task": "Any slayer helm recolour head",
+            "points": 85000,
+            "index": 53
+        },
+        {
+            "task": "Re-fight Galvek or complete DS2 or do one DS2 requirement",
+            "points": 35000,
+            "index": 54
+        },
+        {
+            "task": "Demonics until zenyte or ballista part",
+            "points": 70000,
+            "index": 55
+        },
+        {
+            "task": "5 CG in a row without dying",
+            "points": 52500,
+            "index": 56
+        },
+        {
+            "task": "Get 100 bones that give 50+ xp base (dragon/dags/superior etc)",
+            "points": 35000,
+            "index": 57
+        },
+        {
+            "task": "Kill a boss wearing full jester outfit (stream in discord preferred)",
+            "points": 59500,
+            "index": 58
+        },
+        {
+            "task": "Get 100 slayer points",
+            "points": 100500,
+            "index": 59
+        },
+        {
+            "task": "Barrelchest anchor spec Olm/Verzik/Warden",
+            "points": 70000,
+            "index": 60
+        }
+    ]
+}
