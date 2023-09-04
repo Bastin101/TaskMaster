@@ -349,7 +349,7 @@ async def show_embed_gui(ctx, bot):
                         user_data["current_task"] = ""
                         user_data["potentiel_points"] = ""
                         # Write the updated data back to the JSON file
-                        await GlobalFunctions.Audiolog(ctx, name, "Skipped their task...", "noob")
+                        await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "Skipped their task...", "noob")
                         with open(json_file, "w") as file:
                             json.dump(data, file, indent=4)
                         await switch_to_embed1(interaction)
@@ -373,11 +373,11 @@ async def show_embed_gui(ctx, bot):
                     user_task_streak = user_data["task_streak"]
                     current_task = user_data["current_task"]
                     new_xp = int(xp_to_give) + Users_xp
-                    await GlobalFunctions.Audiolog(ctx, name, "finished their task \n", current_task)
+                    await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "finished their task \n", current_task)
                     Users_for_lvl = await DataHandler.xp_calc_next_lvl(1, user_lvl+1)
                     while Users_for_lvl <= new_xp:
                         user_lvl += 1  # Increment level when condition is true
-                        await GlobalFunctions.Audiolog(ctx, name, "Gained level", user_lvl)
+                        await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "Gained level", user_lvl)
                         user_lvl_to = user_lvl + 1
                         Users_for_lvl = await DataHandler.xp_calc_next_lvl(1, user_lvl_to)
 
@@ -524,7 +524,7 @@ async def show_embed_gui(ctx, bot):
 
                             # Execute the action for the selected option
                             if selected_option == "Skip Task":
-                                await GlobalFunctions.Audiolog(ctx, name, "bought", "Skip Task")
+                                await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "bought", "Skip Task")
                                 if user_id in data:
                                     user_data = data[user_id]
                                     user_data["slayer_status"] = False
@@ -712,7 +712,7 @@ async def show_embed_gui(ctx, bot):
                                     DataHandler.update_user_data(user_id, task_text)
                                     await DataHandler.update_user_P_point(user_id, amount)
                                     name, level, xp, xp_to_next_lvl, Slayer_status, master_task, task_progress = await get_player_info(user_id)
-                                    await GlobalFunctions.Audiolog(ctx, name, f"Got the task from {selected_person} \n", task_text)
+                                    await GlobalFunctions.Audiolog(ctx, user_data["user_name"], f"Got the task from {selected_person} \n", task_text)
                                     embed4 = nextcord.Embed(title=name, description='')
                                     embed4.add_field(name="Your task:", value=master_task, inline=False)
                                     embed4.add_field(name="Current progress:", value=task_progress, inline=False)
@@ -749,7 +749,7 @@ async def show_embed_gui(ctx, bot):
                                     DataHandler.update_user_data(user_id, task_text)
                                     await DataHandler.update_user_P_point(user_id, amount)
                                     name, level, xp, xp_to_next_lvl, Slayer_status, master_task, task_progress = await get_player_info(user_id)
-                                    await GlobalFunctions.Audiolog(ctx, name, "got the task", task_text)
+                                    await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "got the task", task_text)
                                     embed4 = nextcord.Embed(title=name, description='')
                                     embed4.add_field(name="Your task:", value=master_task, inline=False)
                                     embed4.add_field(name="Current progress:", value=task_progress, inline=False)
