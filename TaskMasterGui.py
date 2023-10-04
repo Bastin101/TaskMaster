@@ -7,6 +7,7 @@ import random
 import DataHandler
 import GlobalFunctions
 from nextcord import File
+import asyncio
 number = 1
 user_data = {}
 name = ""
@@ -103,7 +104,7 @@ async def show_embed_gui(ctx, bot):
         # Add taskmasters with their level requirements
         taskmasters = {
             "Bastin": 1,
-            "Liet": 10,
+            "Liet": 1,
             "Swaggy": 25,
             "Blemma": 30,
             "Becs": 50,
@@ -126,7 +127,7 @@ async def show_embed_gui(ctx, bot):
         """description += "| Tasker Staff    | 600   |\n"""
         """description += "| Double Trouble  | 9999  |\n"""
         description += "| Timeout Flurraw | 2     |\n"
-        description += "| Timeout Liet    | 10    |\n"
+        description += "| Timeout Liet    | 1     |\n"
         """description += "| Magebit boots   | 2000  |\n"""
         description += "| Tasker hat      | 20    |\n"
         """description += "| Luck potion     | 2500  |\n"""
@@ -333,29 +334,50 @@ async def show_embed_gui(ctx, bot):
                     Users_xp = user_data["xp"]
                     Users_for_lvl = user_data["xp_to_next_lvl"]
                     user_lvl = user_data["level"]
-                    new_xp = Users_xp - (int(xp_to_give)*2)
-                    Users_for_lvl = await DataHandler.xp_calc_next_lvl(1, user_lvl+1)
+                    new_xp = Users_xp - (int(xp_to_give) * 2)
+                    Users_for_lvl = await DataHandler.xp_calc_next_lvl(1, user_lvl + 1)
                     while Users_for_lvl <= new_xp:
-                        user_lvl += 1  # Increment level when condition is true
+                        user_lvl += 1  # Increment level when the condition is true
                         user_lvl_to = user_lvl + 1
                         Users_for_lvl = await DataHandler.xp_calc_next_lvl(1, user_lvl_to)
 
                     if user_id in data:
                         user_data = data[user_id]
                         user_data["xp"] = new_xp
-                        user_data["level"] = user_lvl  # Assign updated level value to user_data["level"]
+                        user_data["level"] = user_lvl  # Assign the updated level value to user_data["level"]
                         user_data["xp_to_next_lvl"] = int(Users_for_lvl)
                         user_data["slayer_status"] = False
                         user_data["current_task"] = ""
                         user_data["potentiel_points"] = ""
-                        # Write the updated data back to the JSON file
-                        await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "Skipped their task...", "noob")
-                        with open(json_file, "w") as file:
-                            json.dump(data, file, indent=4)
-                        await switch_to_embed1(interaction)
+                        
 
+                        # Send a DM to the user with the confirmation request
+                        await ctx.author.send("To confirm, please enter 'CONFIRM'. To cancel, please enter 'CANCEL'.")
 
-            await switch_to_embed1(interaction)
+                        # Wait for user's DM response
+                        try:
+                            confirm_response = await ctx.bot.wait_for(
+                                "message",
+                                check=lambda message: message.author == ctx.author and message.channel.type == nextcord.ChannelType.private,
+                                timeout=60,  # Adjust the timeout as needed
+                            )
+
+                            if confirm_response.content.upper() == "CONFIRM":
+                                await ctx.author.send("Task skipped successfully.")
+                                 # Write the updated data back to the JSON file
+                                await GlobalFunctions.Audiolog(ctx, user_data["user_name"], "Skipped their task...", "noob")
+                                with open(json_file, "w") as file:
+                                    json.dump(data, file, indent=4)
+                                
+                                await switch_to_embed1(interaction)
+                            elif confirm_response.content.upper() == "CANCEL":
+                                await ctx.author.send("Task skip canceled.")
+                                await switch_to_embed1(interaction)
+                            else:
+                                await ctx.author.send("Invalid input. Please enter 'CONFIRM' to confirm or 'CANCEL' to cancel.")
+                        except asyncio.TimeoutError:
+                            await ctx.author.send("Task skip confirmation timed out.")
+                            await switch_to_embed1(interaction)        
 
 
         async def Finish_task(interaction):
@@ -468,7 +490,7 @@ async def show_embed_gui(ctx, bot):
                     ),
                     nextcord.SelectOption(
                         label="Timeout Liet",
-                        description="15 gp: need a 5 min break?"
+                        description="1 gp: need a 5 min break?"
                     ),
                     nextcord.SelectOption(
                         label="Timeout Flurraw",
@@ -493,7 +515,7 @@ async def show_embed_gui(ctx, bot):
                 # Dictionary to store "gp" values for each option
                 gp_values = {
                     "Skip Task": 3,
-                    "Timeout Liet": 15,
+                    "Timeout Liet": 1,
                     "Timeout Flurraw": 2,
                     "Tasker Hat": 20,
                     "Option 5?": 0,  # This option doesn't require any "gp" points
@@ -687,8 +709,6 @@ async def show_embed_gui(ctx, bot):
                         }
                         if os.path.exists(f"/home/pi/Desktop/SkillMaster/SkillMasters/{selected_person}.json"):
                             with open(f"/home/pi/Desktop/SkillMaster/SkillMasters/{selected_person}.json", "r") as file:
-                        #if os.path.exists(f"C:/Users/jacob/Desktop/github/SkillMaster/SkillMasters/{selected_person}.json"):
-                        #    with open(f"C:/Users/jacob/Desktop/github/SkillMaster/SkillMasters/{selected_person}.json", "r") as file:
                                 data = json.load(file)
                                 tasks = data["tasks"]
                         else:
@@ -707,7 +727,7 @@ async def show_embed_gui(ctx, bot):
                                         accessible_tasks = random.sample(accessible_tasks, 1)
                                         
 
-                                    task_text = "\n".join([f"{task['index']}. {task['task']} - {task['points']} xp" for task in accessible_tasks])
+                                    task_text = "\n".join([f"{task['task']} \n\nReward: {task['points']} xp" for task in accessible_tasks])
                                     amount = ', '.join(str(task['points']) for task in accessible_tasks)
                                     DataHandler.update_user_data(user_id, task_text)
                                     await DataHandler.update_user_P_point(user_id, amount)

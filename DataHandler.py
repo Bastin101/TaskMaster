@@ -141,11 +141,12 @@ def generate_leaderboard_embed(data):
 
     # Add each user to the embed with their rank, name, xp, and level
     for rank, user in enumerate(sorted_users, start=1):
-        user_name = user["user_name"]
-        xp = user["xp"]
-        level = user["level"]
-        level_size = len(str(level))
-        embed.add_field(name=f"Rank {rank}", value=f"{user_name}\nLvL: {level} {'-'*(4-level_size)}--------XP: {xp}", inline=False)
+        if user["xp"] > 9999 or user["xp"] < 0:
+            user_name = user["user_name"]
+            xp = user["xp"]
+            level = user["level"]
+            level_size = len(str(level))
+            embed.add_field(name=f"Rank {rank}", value=f"{user_name}\nLvL: {level} {'-'*(4-level_size)}--------XP: {xp}", inline=False)
 
     return embed
 

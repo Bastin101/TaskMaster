@@ -107,7 +107,7 @@ async def clear(ctx, amount = 100):
 
 @bot.command()
 async def reduce_xp(ctx, person, amount: int):
-    if ctx.author.id == 368690612754448386:
+    if ctx.author.id == 368690612754448386 or 631886189493747723:
         person = person.strip("<@!>")
         user = await bot.fetch_user(person)
         # Open the JSON file and load the data

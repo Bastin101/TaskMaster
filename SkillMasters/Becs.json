@@ -1,0 +1,305 @@
+{
+    "level_requirement": 50,
+    "tasks": [
+        {
+            "task": "make a friend in the wildy",
+            "points": 10000,
+            "index": 1
+        },
+        {
+            "task": "get a unique drop from 1 of the wildy demi bosses",
+            "points": 40000,
+            "index": 2
+        },
+        {
+            "task": "kill 1 of the wildy bosses 20 times",
+            "points": 22500,
+            "index": 3
+        },
+        {
+            "task": "gain someone's trust at wildy altar and try to kill them with a dds when you have their trust",
+            "points": 22500,
+            "index": 4
+        },
+        {
+            "task": "get a pk of 150k",
+            "points": 20000,
+            "index": 5
+        },
+        {
+            "task": "get 10 lms kills",
+            "points": 10000,
+            "index": 6
+        },
+        {
+            "task": "do 10 laps of wildy agility",
+            "points": 7000,
+            "index": 7
+        },
+        {
+            "task": "get a larran's key",
+            "points": 22500,
+            "index": 8
+        },
+        {
+            "task": "do 1 trip of killing revs",
+            "points": 11250,
+            "index": 9
+        },
+        {
+            "task": "recharge some glories at fountain of runes",
+            "points": 3750,
+            "index": 10
+        },
+        {
+            "task": "complete a wildy clue step",
+            "points": 30000,
+            "index": 11
+        },
+        {
+            "task": "kill chaos elly 10 times",
+            "points": 26250,
+            "index": 12
+        },
+        {
+            "task": "kill vet'ion/calver'ion 10 times",
+            "points": 43750,
+            "index": 13
+        },
+        {
+            "task": "kill venenatis/spindel 10 times",
+            "points": 43750,
+            "index": 14
+        },
+        {
+            "task": "kill callisto/artio 10 times",
+            "points": 43750,
+            "index": 15
+        },
+        {
+            "task": "kill chaos fanatic 20 times",
+            "points": 35000,
+            "index": 16
+        },
+        {
+            "task": "kill crazy archaeologist 20 times",
+            "points": 26250,
+            "index": 17
+        },
+        {
+            "task": "kill scorpia 20 times",
+            "points": 35000,
+            "index": 18
+        },
+        {
+            "task": "Walk around on a pvp world for 30 min",
+            "points": 10000,
+            "index": 19
+        },
+        {
+            "task": "do a wildy slayer task",
+            "points": 35000,
+            "index": 20
+        },
+        {
+            "task": "make someone tele out of the wildy",
+            "points": 26250,
+            "index": 21
+        },
+        {
+            "task": "win a game of castle wars",
+            "points": 12500,
+            "index": 22
+        },
+        {
+            "task": "do 3 fights in pvp arena",
+            "points": 12500,
+            "index": 23
+        },
+        {
+            "task": "win a game of soul wars",
+            "points": 12500,
+            "index": 24
+        },
+        {
+            "task": "join a game of soulwars with fasion",
+            "points": 12500,
+            "index": 25
+        },
+        {
+            "task": "kill kbd 10 times",
+            "points": 12500,
+            "index": 26
+        },
+        {
+            "task": "kill earthwarriors for 15 min",
+            "points": 12500,
+            "index": 27
+        },
+        {
+            "task": "train any skill (no combat or slayer) in the wilderness for 30 min",
+            "points": 12500,
+            "index": 28
+        },
+        {
+            "task": "find and report 10 bots in the wildy",
+            "points": 50000,
+            "index": 29
+        },
+        {
+            "task": "find 10 funny names in the wildy",
+            "points": 30000,
+            "index": 30
+        },
+        {
+            "task": "find a person saying \"sit \" in the wildy",
+            "points": 37500,
+            "index": 31
+        },
+        {
+            "task": "kill a rat with your cat of a splasher in ferox",
+            "points": 15000,
+            "index": 32
+        },
+        {
+            "task": "tb someone and force them to have a conversation",
+            "points": 30000,
+            "index": 33
+        },
+        {
+            "task": "attack someone in full bronze",
+            "points": 10000,
+            "index": 34
+        },
+        {
+            "task": "find 2 people fighting in the wildy and be the cheerleader of one of them",
+            "points": 30000,
+            "index": 35
+        },
+        {
+            "task": "kill 20 lava dragons",
+            "points": 30000,
+            "index": 36
+        },
+        {
+            "task": "do 5 inventories of any bones at chaos altar",
+            "points": 30000,
+            "index": 37
+        },
+        {
+            "task": "get a lms win",
+            "points": 75000,
+            "index": 38
+        },
+        {
+            "task": "catch 100 crabs",
+            "points": 30000,
+            "index": 39
+        },
+        {
+            "task": "mine 5 runite ore in the wildy",
+            "points": 30000,
+            "index": 40
+        },
+        {
+            "task": "do 30 min of rc using the abyss",
+            "points": 15000,
+            "index": 41
+        },
+        {
+            "task": "catch 200 black chins",
+            "points": 35000,
+            "index": 4
+        },
+        {
+            "task": "loot the rogues chest 20 times",
+            "points": 35000,
+            "index": 43
+        },
+        {
+            "task": "get 20 lms points",
+            "points": 35000,
+            "index": 44
+        },
+        {
+            "task": "turn someones prayer off using the dscim spec",
+            "points": 52500,
+            "index": 45
+        },
+        {
+            "task": "open the muddy chest",
+            "points": 35000,
+            "index": 46
+        },
+        {
+            "task": "get a giant key in the wilderness",
+            "points": 17500,
+            "index": 47
+        },
+        {
+            "task": "get a mossy key in the wilderness",
+            "points": 17500,
+            "index": 48
+        },
+        {
+            "task": "get a clue in the wilderness",
+            "points": 35000,
+            "index": 49
+        },
+        {
+            "task": "get a 5 kills in lms as a venger",
+            "points": 52500,
+            "index": 50
+        },
+        {
+            "task": "get 5 kills in lms using ancient spellbook",
+            "points": 52500,
+            "index": 51
+        },
+        {
+            "task": "get 5 kills in lms using normal spellbook",
+            "points": 53500,
+            "index": 52
+        },
+        {
+            "task": "get 3 kills in 1 game of lms",
+            "points": 40000,
+            "index": 53
+        },
+        {
+            "task": "try to pk a runecrafter running to the abyss",
+            "points": 50000,
+            "index": 54
+        },
+        {
+            "task": "try to anti pk a pker",
+            "points": 50000,
+            "index": 55
+        },
+        {
+            "task": "try to kill someone at black chins",
+            "points": 25000,
+            "index": 56
+        },
+        {
+            "task": "kill someone in the wildy slayer cave",
+            "points": 50000,
+            "index": 57
+        },
+        {
+            "task": "telegrab 100 zammy wines in the wildy",
+            "points": 75000,
+            "index": 58
+        },
+        {
+            "task": "charge 100 earth orbs",
+            "points": 50000,
+            "index": 59
+        },
+        {
+            "task": "charge 100 air orbs",
+            "points": 50000,
+            "index": 60
+        }
+    ]
+}

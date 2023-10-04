@@ -35,7 +35,271 @@
             "task": "Get to varrock from lumbridge by only following people",
             "points": 1200,
             "index": 7
-
+        },
+        {
+            "task": "low alc 20 potions from your bank",
+            "points": 1600,
+            "index": 8
+        },
+        {
+            "task": "Challenge a player to a fistfight and lose",
+            "points": 1200,
+            "index": 9
+        },
+        {
+            "task": "Follow a random player around for 15 minutes saying nothing",
+            "points": 1500,
+            "index": 10
+        },
+        {
+            "task": "Sit and chat with the Wise Old Man in Draynor Village",
+            "points": 600,
+            "index": 11
+        },
+        {
+            "task": "go to the wild prayer-altar with no armour or weapons and attack people",
+            "points": 1200,
+            "index": 12
+        },
+        {
+            "task": "Fish for minnows in the Fishing Guild for 30 minutes, then drop the fish",
+            "points": 4000,
+            "index": 13
+        },
+        {
+            "task": "Sell an obscure item to every general store in Runescape",
+            "points": 8000,
+            "index": 14
+        },
+        {
+            "task": "Mine a full bag of rune essence with a bronze pickaxe",
+            "points": 2000,
+            "index": 15
+        },
+        {
+            "task": "Get pk'ed",
+            "points": 2000,
+            "index": 16
+        },
+        {
+            "task": "Buy a Meat tenderiser",
+            "points": 1000,
+            "index": 17
+        },
+        {
+            "task": "Spend 30 minutes organizing your bank in the Bank of RuneScape",
+            "points": 5000,
+            "index": 18
+        },
+        {
+            "task": "Attempt to kill a high-level boss monster with only a bronze dagger",
+            "points": 7500,
+            "index": 19
+        },
+        {
+            "task": "Dress up in a full mime costume and perform emotes in Falador Park",
+            "points": 3000,
+            "index": 20
+        },
+        {
+            "task": "Try to obtain a rare drop from a low-level monster (at least 20 min)",
+            "points": 4000,
+            "index": 21
+        },
+        {
+            "task": "Participate in a hide-and-seek event with other players",
+            "points": 7500,
+            "index": 22
+        },
+        {
+            "task": "Spend 30 minutes picking flax",
+            "points": 5000,
+            "index": 23
+        },
+        {
+            "task": "Earn one bond on a f2p world",
+            "points": 55000,
+            "index": 24
+        },
+        {
+            "task": "Stand on the top of the Wizards' Tower and admire the view for 10 minutes",
+            "points": 2250,
+            "index": 25
+        },
+        {
+            "task": "Mine 10 of the highest level ores you can with a bronze pickaxe",
+            "points": 15000,
+            "index": 26
+        },
+        {
+            "task": "Make fires for people fishing for 30 minutes",
+            "points": 3750,
+            "index": 27
+        },
+        {
+            "task": "Talk to every npc in the city of Dorgesh-Kaan",
+            "points": 15000,
+            "index": 28
+        },
+        {
+            "task": "Lie about your bossing achievments at GE world 342",
+            "points": 4500,
+            "index": 29
+        },
+        {
+            "task": "remove on of your bank tabs",
+            "points": 4000,
+            "index": 30
+        },
+        {
+            "task": "Give a low level bad advice",
+            "points": 3000,
+            "index": 31
+        },
+        {
+            "task": "Spend 15 minutes performing emotes in the Grand Exchange",
+            "points": 3750,
+            "index": 32
+        },
+        {
+            "task": "low alc a dragon item",
+            "points": 6000,
+            "index": 33
+        },
+        {
+            "task": "Attempt to defeat the King Black Dragon using only bronze armor",
+            "points": 15000,
+            "index": 34
+        },
+        {
+            "task": "Dress up as a chicken and cluck around Lumbridge",
+            "points": 4500,
+            "index": 35
+        },
+        {
+            "task": "Spend 30 minutes begging for free items in the busiest area of Varrock",
+            "points": 11250,
+            "index": 36
+        },
+        {
+            "task": "Watch a 20-minute YouTube video about Old School RuneScape",
+            "points": 2625,
+            "index": 37
+        },
+        {
+            "task": "Go outside and take a 15-minute break from playing the game",
+            "points": 17500,
+            "index": 38
+        },
+        {
+            "task": "Stand in front of the mirror and say 3 nice things about yourself",
+            "points": 15750,
+            "index": 39
+        },
+        {
+            "task": "Send a message in the game chat expressing your love for potatoes",
+            "points": 5250,
+            "index": 40
+        },
+        {
+            "task": "Go for a 30-minute walk outside while listening to your favorite podcast",
+            "points": 17500,
+            "index": 41
+        },
+        {
+            "task": "Create a piece of artwork inspired by your favorite Old School RuneScape boss",
+            "points": 10500,
+            "index": 42
+        },
+        {
+            "task": "play Runescape3 for 30 min",
+            "points": 35000,
+            "index": 43
+        },
+        {
+            "task": "Write a poem about your favorite skill in Old School RuneScape",
+            "points": 10500,
+            "index": 44
+        },
+        {
+            "task": "Attempt to juggle",
+            "points": 21000,
+            "index": 45
+        },
+        {
+            "task": "Balance something on your head for 30 seconds",
+            "points": 14000,
+            "index": 46
+        },
+        {
+            "task": "Send someone an ugly selfie",
+            "points": 20000,
+            "index": 47
+        },
+        {
+            "task": "Stare out of one of your windows and look at people for 10 minutes",
+            "points": 15000,
+            "index": 48
+        },
+        {
+            "task": "Call a parent and ask them about their day",
+            "points": 40000,
+            "index": 49
+        },
+        {
+            "task": "Take a nap",
+            "points": 25000,
+            "index": 50
+        },
+        {
+            "task": "Try finding one interesting fact about Denmark",
+            "points": 20000,
+            "index": 51
+        },
+        {
+            "task": "Go to wikipedia, from the Runescape page follow three hyperlinks and then read the entire page",
+            "points": 37500,
+            "index": 52
+        },
+        {
+            "task": "Take some ice from the freezer and watch it melt",
+            "points": 50000,
+            "index": 53
+        },
+        {
+            "task": "Make a political statement at the Grand Exchange",
+            "points": 15000,
+            "index": 54
+        },
+        {
+            "task": "Get 300k NMZ points ",
+            "points": 50000,
+            "index": 55
+        },
+        {
+            "task": "Go to the mirror and point out 3 things you like, you're beautiful <3",
+            "points": 30000,
+            "index": 56
+        },
+        {
+            "task": "Have a snack",
+            "points": 12000,
+            "index": 57
+        },
+        {
+            "task": "Got through the underground pass without food or stamina potions",
+            "points": 60000,
+            "index": 58
+        },
+        {
+            "task": "Send someone a flirty text",
+            "points": 18000,
+            "index": 59
+        },
+        {
+            "task": "Look at cat videos for 15 minutes",
+            "points": 15000,
+            "index": 60
         }
     ]
 }

@@ -1,1 +1,305 @@
-
+{
+    "level_requirement": 1,
+    "tasks": [
+        {
+            "task": "Cut 200 Oak Logs",
+            "points": 100,
+            "index": 1
+        },
+        {
+            "task": "Kill 150 Goblins",
+            "points": 200,
+            "index": 2
+        },
+        {
+            "task": "Mine 200 Tin Ore",
+            "points": 100,
+            "index": 3
+        },
+        {
+            "task": "Cook 200 Raw Shrimp",
+            "points": 300,
+            "index": 4
+        },
+        {
+            "task": "Craft 50 Leather Gloves",
+            "points": 250,
+            "index": 5
+        },
+        {
+            "task": "Catch 100 Shrimps",
+            "points": 50,
+            "index": 6
+        },
+        {
+            "task": "Bury 200 Bones",
+            "points": 100,
+            "index": 7
+        },
+        {
+            "task": "Catch 150 Raw Salmon",
+            "points": 200,
+            "index": 8
+        },
+        {
+            "task": "Mine 200 Copper Ore",
+            "points": 100,
+            "index": 9
+        },
+        {
+            "task": "Craft 40 Bronze Platebodies",
+            "points": 1000,
+            "index": 10
+        },
+        {
+            "task": "Cook 100 Salmon",
+            "points": 150,
+            "index": 11
+        },
+        {
+            "task": "Cut 100 Willow Logs",
+            "points": 150,
+            "index": 12
+        },
+        {
+            "task": "Kill 200 Cows",
+            "points": 200,
+            "index": 13
+        },
+        {
+            "task": "Collect 5 Giant Keys",
+            "points": 1000,
+            "index": 14
+        },
+        {
+            "task": "Collect 5 Mossy Keys",
+            "points": 1000,
+            "index": 15
+        },
+        {
+            "task": "Catch 100 Raw Pike",
+            "points": 200,
+            "index": 16
+        },
+        {
+            "task": "Craft 50 Leather Boots",
+            "points": 200,
+            "index": 17
+        },
+        {
+            "task": "Catch 150 Raw Herring",
+            "points": 300,
+            "index": 18
+        },
+        {
+            "task": "Mine 200 Iron Ore",
+            "points": 300,
+            "index": 19
+        },
+        {
+            "task": "Catch 150 Tuna",
+            "points": 300,
+            "index": 20
+        },
+        {
+            "task": "Cut 200 Maple Logs",
+            "points": 300,
+            "index": 21
+        },
+        {
+            "task": "100 Ardougne Rooftop Laps",
+            "points": 2000,
+            "index": 22
+        },
+        {
+            "task": "Mine 150 Silver Ore",
+            "points": 200,
+            "index": 23
+        },
+        {
+            "task": "Catch 200 Lobsters",
+            "points": 2400,
+            "index": 24
+        },
+        {
+            "task": "Cook 100 Raw Lobster",
+            "points": 1600,
+            "index": 25
+        },
+        {
+            "task": "Blow 50 Molten Glass into Items",
+            "points": 200,
+            "index": 26
+        },
+        {
+            "task": "Cook 100 Raw Tuna",
+            "points": 600,
+            "index": 27
+        },
+        {
+            "task": "Mine 200 Gold Ore",
+            "points": 1600,
+            "index": 28
+        },
+        {
+            "task": "Get 50 Golden Nuggets",
+            "points": 10000,
+            "index": 29
+        },
+        {
+            "task": "Cut 100 Yew Logs",
+            "points": 1600,
+            "index": 30
+        },
+        {
+            "task": "Kill 150 Hill Giants",
+            "points": 1200,
+            "index": 31
+        },
+        {
+            "task": "Mine 150 Coal",
+            "points": 1200,
+            "index": 32
+        },
+        {
+            "task": "Cook 200 Monkfish",
+            "points": 1200,
+            "index": 33
+        },
+        {
+            "task": "Catch 100 Raw Lobsters",
+            "points": 800,
+            "index": 34
+        },
+        {
+            "task": "Craft 50 Green D'hide Vambraces",
+            "points": 4000,
+            "index": 35
+        },
+        {
+            "task": "Catch 150 Raw Bass",
+            "points": 1200,
+            "index": 36
+        },
+        {
+            "task": "Mine 200 Mithril Ore",
+            "points": 1600,
+            "index": 37
+        },
+        {
+            "task": "Cook 150 Sharks",
+            "points": 2000,
+            "index": 38
+        },
+        {
+            "task": "Cut 200 Magic Logs",
+            "points": 18000,
+            "index": 39
+        },
+        {
+            "task": "Kill 150 Moss Giants",
+            "points": 3000,
+            "index": 40
+        },
+        {
+            "task": "Mine 150 Adamantite Ore",
+            "points": 10000,
+            "index": 41
+        },
+        {
+            "task": "Cook 200 Dark Crabs",
+            "points": 10000,
+            "index": 42
+        },
+        {
+            "task": "Catch 100 Raw Monkfish",
+            "points": 4000,
+            "index": 43
+        },
+        {
+            "task": "Craft 50 Blue D'hide Vambraces",
+            "points": 5000,
+            "index": 44
+        },
+        {
+            "task": "Catch 150 Chinchompa (any colour)",
+            "points": 5000,
+            "index": 45
+        },
+        {
+            "task": "Mine 20 Runite Ore",
+            "points": 3000,
+            "index": 46
+        },
+        {
+            "task": "Cook 150 Anglerfish",
+            "points": 5000,
+            "index": 47
+        },
+        {
+            "task": "Cut 100 Redwood Logs",
+            "points": 5000,
+            "index": 48
+        },
+        {
+            "task": "Complete 5 Slayer Tasks",
+            "points": 20000,
+            "index": 49
+        },
+        {
+            "task": "Mine 150 Amethyst Crystals",
+            "points": 10000,
+            "index": 50
+        },
+        {
+            "task": "Disect 200 Sacred Eels",
+            "points": 8000,
+            "index": 51
+        },
+        {
+            "task": "Catch 100 Raw Shark (NOT MINNOWS SHITHEADS)",
+            "points": 10000,
+            "index": 52
+        },
+        {
+            "task": "Craft 50 Red D'hide Vambraces",
+            "points": 10000,
+            "index": 53
+        },
+        {
+            "task": "Catch 150 Raw Monkfish",
+            "points": 5000,
+            "index": 54
+        },
+        {
+            "task": "Mine 200 Volcanic Ash",
+            "points": 10000,
+            "index": 55
+        },
+        {
+            "task": "Cook 150 Dark Crabs",
+            "points": 20000,
+            "index": 56
+        },
+        {
+            "task": "Cut 200 Blisterwood Logs",
+            "points": 15000,
+            "index": 57
+        },
+        {
+            "task": "Fish 100 dark crabs",
+            "points": 15000,
+            "index": 58
+        },
+        {
+            "task": "Mine 150 Blast Mine Ores",
+            "points": 15000,
+            "index": 59
+        },
+        {
+            "task": "Collect 1500 Stardust",
+            "points": 15000,
+            "index": 60
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "level_requirement": 70,
+    "tasks": [
+        {
+            "task": "Acquire one piece barrow armour",
+            "points": 10000,
+            "index": 1
+        },
+        {
+            "task": "Acquire one piece of the Bandos armor",
+            "points": 80500,
+            "index": 2
+        },
+        {
+            "task": "Obtain a Sarachnis unique",
+            "points": 40000,
+            "index": 3
+        },
+        {
+            "task": "Acquire one piece of the Armadyl armor",
+            "points": 80500,
+            "index": 4
+        },
+        {
+            "task": "Obtain an unique from DK",
+            "points": 70000,
+            "index": 5
+        },
+        {
+            "task": "Acquire enough points to buy Decorative helm (white)",
+            "points": 50000,
+            "index": 6
+        },
+        {
+            "task": "Obtain an item from K'ril Tsutsaroth",
+            "points": 80000,
+            "index": 7
+        },
+        {
+            "task": "Acquire enough points to buy Ring of the elements",
+            "points": 55500,
+            "index": 8
+        },
+        {
+            "task": "get a unique from Zulrah",
+            "points": 70250,
+            "index": 9
+        },
+        {
+            "task": "Acquire a one piece of Blessed Dragonhide armor",
+            "points": 70000,
+            "index": 10
+        },
+        {
+            "task": "Obtain a Trident of the Seas",
+            "points": 60000,
+            "index": 11
+        },
+        {
+            "task": "Acquire a 2 pieces of barrow armour",
+            "points": 40000,
+            "index": 12
+        },
+        {
+            "task": "Obtain any bow paint",
+            "points": 30000,
+            "index": 13
+        },
+        {
+            "task": "Acquire an Apprentice wand (or the points for it)",
+            "points": 50000,
+            "index": 14
+        },
+        {
+            "task": "Obtain two Chewed bones",
+            "points": 54000,
+            "index": 15
+        },
+        {
+            "task": "Acquire a Guthan's item from barrows",
+            "points": 60000,
+            "index": 16
+        },
+        {
+            "task": "Obtain an Abyssal Tentacle",
+            "points": 40000,
+            "index": 17
+        },
+        {
+            "task": "Acquire a item from Verac's Armour",
+            "points": 60000,
+            "index": 18
+        },
+        {
+            "task": "Obtain a \"My note\" ",
+            "points": 20000,
+            "index": 19
+        },
+        {
+            "task": "Acquire one piece of Torag's Armour",
+            "points": 60000,
+            "index": 20
+        },
+        {
+            "task": "Obtain a Awakener's Orb",
+            "points": 80000,
+            "index": 21
+        },
+        {
+            "task": "Acquire one piece of Dharok's Armour",
+            "points": 60000,
+            "index": 22
+        },
+        {
+            "task": "Obtain one unique from the Tzhaar log",
+            "points": 60000,
+            "index": 23
+        },
+        {
+            "task": "do 10 medium clues",
+            "points": 42000,
+            "index": 24
+        },
+        {
+            "task": "do 20 easy clues",
+            "points": 42000,
+            "index": 25
+        },
+        {
+            "task": "Acquire a a Barrow Weapon",
+            "points": 84000,
+            "index": 26
+        },
+        {
+            "task": "Do one of each clues",
+            "points": 63000,
+            "index": 27
+        },
+        {
+            "task": "Obtain a Awakener's Orb",
+            "points": 75600,
+            "index": 28
+        },
+        {
+            "task": "Get a wintertodt unique",
+            "points": 40000,
+            "index": 29
+        },
+        {
+            "task": "Do 3 hard clues",
+            "points": 60000,
+            "index": 30
+        },
+        {
+            "task": "Obtain 5 Mossy key",
+            "points": 70000,
+            "index": 31
+        },
+        {
+            "task": "obtain 5 giant key ",
+            "points": 70000,
+            "index": 32
+        },
+        {
+            "task": "Obtain a fire cape",
+            "points": 40000,
+            "index": 33
+        },
+        {
+            "task": "Obtain 2k Ancient essence",
+            "points": 60000,
+            "index": 34
+        },
+        {
+            "task": "Obtain a Vorkath head",
+            "points": 80000,
+            "index": 35
+        },
+        {
+            "task": "Obtain a zulrah unique",
+            "points": 80000,
+            "index": 36
+        },
+        {
+            "task": "Do a master clue",
+            "points": 60000,
+            "index": 37
+        },
+        {
+            "task": "Do 5 medium clues",
+            "points": 30000,
+            "index": 38
+        },
+        {
+            "task": "Obtain an Fire Cape",
+            "points": 30000,
+            "index": 39
+        },
+        {
+            "task": "Obtain a Dagannoth Kings Rings",
+            "points": 80000,
+            "index": 40
+        },
+        {
+            "task": "Obtain points for Decorative magic hat",
+            "points": 50000,
+            "index": 41
+        },
+        {
+            "task": "Acquire 2 Kovac's grogs",
+            "points": 60000,
+            "index": 42
+        },
+        {
+            "task": "Obtain a Gnome Restaurant unique",
+            "points": 30000,
+            "index": 43
+        },
+        {
+            "task": "Acquire 5 Soul Wars caskets",
+            "points": 70000,
+            "index": 44
+        },
+        {
+            "task": "Obtain a Golden tench",
+            "points": 90000,
+            "index": 45
+        },
+        {
+            "task": "Acquire a \"My note\"",
+            "points": 25000,
+            "index": 46
+        },
+        {
+            "task": "Obtain a Crazy Archaeologist unique",
+            "points": 30000,
+            "index": 47
+        },
+        {
+            "task": "Do 10 easy clues",
+            "points": 30000,
+            "index": 48
+        },
+        {
+            "task": "Do 10 beginner clues",
+            "points": 30000,
+            "index": 49
+        },
+        {
+            "task": "Obtain a Chromium ingot",
+            "points": 90000,
+            "index": 50
+        },
+        {
+            "task": "Obtain an Awakener's orb",
+            "points": 60000,
+            "index": 51
+        },
+        {
+            "task": "Obtain a barrow unique",
+            "points": 30000,
+            "index": 52
+        },
+        {
+            "task": "Obtain a Nihil shard",
+            "points": 30000,
+            "index": 53
+        },
+        {
+            "task": "Obtain a Ring of the elements",
+            "points": 60000,
+            "index": 54
+        },
+        {
+            "task": "Do 5 medium clues",
+            "points": 30000,
+            "index": 55
+        },
+        {
+            "task": "Optain Infinity boots (or the points for it)",
+            "points": 90000,
+            "index": 56
+        },
+        {
+            "task": "Obtain a Chaos Druids unique",
+            "points": 80000,
+            "index": 57
+        },
+        {
+            "task": "Do 10 beginner clues",
+            "points": 30000,
+            "index": 58
+        },
+        {
+            "task": "do 10 medium clues",
+            "points": 30000,
+            "index": 59
+        },
+        {
+            "task": "Obtain a GwD unique",
+            "points": 70000,
+            "index": 60
+        }
+    ]
+}

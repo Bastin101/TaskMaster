@@ -1,0 +1,305 @@
+{
+    "level_requirement": 30,
+    "tasks": [
+        {
+            "task": "Complete 100 laps on any rooftop",
+            "points": 10000,
+            "index": 1
+        },
+        {
+            "task": "Obtain 50 tickets at Brimhaven Agility Arena",
+            "points": 33000,
+            "index": 2
+        },
+        {
+            "task": "Complete 10 rounds of Tempoross",
+            "points": 10000,
+            "index": 3
+        },
+        {
+            "task": "Complete 10 rounds of Pyramid Plunder",
+            "points": 7000,
+            "index": 4
+        },
+        {
+            "task": "Collect 200 eclectic implings",
+            "points": 20000,
+            "index": 5
+        },
+        {
+            "task": "Obtain 100k woodcutting xp",
+            "points": 40000,
+            "index": 6
+        },
+        {
+            "task": "Complete 10 rounds of Wintertodt",
+            "points": 20000,
+            "index": 7
+        },
+        {
+            "task": "obtain 200k firemaking xp",
+            "points": 10000,
+            "index": 8
+        },
+        {
+            "task": "gain 100k agility xp",
+            "points": 20000,
+            "index": 9
+        },
+        {
+            "task": "Do 10 games of zalcano",
+            "points": 10000,
+            "index": 10
+        },
+        {
+            "task": "do 5 slayer tasks",
+            "points": 50000,
+            "index": 11
+        },
+        {
+            "task": "Gain 50k herblore xp",
+            "points": 10000,
+            "index": 12
+        },
+        {
+            "task": "Catch 10,000 minnows (NOT SHARKS)",
+            "points": 20000,
+            "index": 13
+        },
+        {
+            "task": "Collect 200 eclectic implings",
+            "points": 40000,
+            "index": 14
+        },
+        {
+            "task": "Obtain 200k prayer xp",
+            "points": 30000,
+            "index": 15
+        },
+        {
+            "task": "Obtain 100k woodcutting xp",
+            "points": 20000,
+            "index": 16
+        },
+        {
+            "task": "Obtain 100k smithing xp",
+            "points": 10000,
+            "index": 17
+        },
+        {
+            "task": "Obtain 50k Slayer xp",
+            "points": 30000,
+            "index": 18
+        },
+        {
+            "task": "Do 5 slayer tasks",
+            "points": 50000,
+            "index": 19
+        },
+        {
+            "task": "Obtain 3000 Anima-infused bark from Forestry",
+            "points": 30000,
+            "index": 20
+        },
+        {
+            "task": "Catch 300 chins",
+            "points": 40000,
+            "index": 21
+        },
+        {
+            "task": "Obtain 100k smithing xp",
+            "points": 10000,
+            "index": 22
+        },
+        {
+            "task": "Complete 10 games of Tempoross",
+            "points": 10000,
+            "index": 23
+        },
+        {
+            "task": "Obtain 50k Slayer xp",
+            "points": 30000,
+            "index": 24
+        },
+        {
+            "task": "Complete 10 rounds of Pyramid Plunder",
+            "points": 10000,
+            "index": 25
+        },
+        {
+            "task": "Gain 50k herblore xp",
+            "points": 10000,
+            "index": 26
+        },
+        {
+            "task": "Complete 10 rounds of Wintertodt",
+            "points": 10000,
+            "index": 27
+        },
+        {
+            "task": "Obtain 200k crafting xp",
+            "points": 30000,
+            "index": 28
+        },
+        {
+            "task": "Obtain 50k mining xp",
+            "points": 20000,
+            "index": 29
+        },
+        {
+            "task": "Do farm runs until you acquire 200 herbs",
+            "points": 33000,
+            "index": 30
+        },
+        {
+            "task": "Obtain 200k construction xp",
+            "points": 30000,
+            "index": 31
+        },
+        {
+            "task": "Do agility until you have 30 marks of grace",
+            "points": 35000,
+            "index": 32
+        },
+        {
+            "task": "Obtain 200k xp in Prayer",
+            "points": 35000,
+            "index": 33
+        },
+        {
+            "task": "Complete 10 games of Guardians of the Rift",
+            "points": 24500,
+            "index": 34
+        },
+        {
+            "task": "Obtain a blood shard through thieving",
+            "points": 150000,
+            "index": 35
+        },
+        {
+            "task": "Gain 50k herblore xp",
+            "points": 17500,
+            "index": 36
+        },
+        {
+            "task": "Obtain 200 points at Mahogany Homes",
+            "points": 52500,
+            "index": 37
+        },
+        {
+            "task": "Obtain 200k cooking xp",
+            "points": 35000,
+            "index": 38
+        },
+        {
+            "task": "Obtain 3000 Anima-infused bark from Forestry",
+            "points": 42000,
+            "index": 39
+        },
+        {
+            "task": "Obtain 100k coins from thieving",
+            "points": 35000,
+            "index": 40
+        },
+        {
+            "task": "Receive 50 nuggets from Motherload Mine",
+            "points": 50000,
+            "index": 41
+        },
+        {
+            "task": "Obtain 200k cooking xp",
+            "points": 50000,
+            "index": 42
+        },
+        {
+            "task": "Fish 10,000 minnows",
+            "points": 40000,
+            "index": 43
+        },
+        {
+            "task": "Complete 10 games of Zalcano",
+            "points": 25000,
+            "index": 44
+        },
+        {
+            "task": "Complete 10 rounds of Pyramid Plunder",
+            "points": 25000,
+            "index": 45
+        },
+        {
+            "task": "Get 300 fruit from Tithe Farm",
+            "points": 50000,
+            "index": 46
+        },
+        {
+            "task": "Complete 10 rounds of Wintertodt",
+            "points": 25000,
+            "index": 47
+        },
+        {
+            "task": "Gain 50k herblore xp",
+            "points": 35000,
+            "index": 48
+        },
+        {
+            "task": "Obtain 100k smithing xp",
+            "points": 35000,
+            "index": 49
+        },
+        {
+            "task": "Obtain 200k prayer xp",
+            "points": 50000,
+            "index": 50
+        },
+        {
+            "task": "Obtain 200k fletching xp",
+            "points": 50000,
+            "index": 51
+        },
+        {
+            "task": "Catch 300 chins",
+            "points": 42000,
+            "index": 52
+        },
+        {
+            "task": "Obtain 200k cooking xp",
+            "points": 40000,
+            "index": 53
+        },
+        {
+            "task": "do an hour of blast furnace",
+            "points": 45000,
+            "index": 54
+        },
+        {
+            "task": "Obtain 100k Runecrafting xp",
+            "points": 60000,
+            "index": 55
+        },
+        {
+            "task": "Obtain 100k fletching xp",
+            "points": 42000,
+            "index": 56
+        },
+        {
+            "task": "Obtain 100k coins from thieving",
+            "points": 40000,
+            "index": 57
+        },
+        {
+            "task": "Complete 100 laps on any rooftop",
+            "points": 50000,
+            "index": 58
+        },
+        {
+            "task": "Gain 50k herblore xp",
+            "points": 42000,
+            "index": 59
+        },
+        {
+            "task": "Receive 5000 points at Mage Training Arena",
+            "points": 10000,
+            "index": 60
+        }
+    ]
+}
